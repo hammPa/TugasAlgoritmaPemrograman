@@ -1,0 +1,3 @@
+kalau masih b elum bisa  ompile and run, hapus file collection.exe di dev-cpp/libex
+
+kalau ngeflash, tambahkan getch();
