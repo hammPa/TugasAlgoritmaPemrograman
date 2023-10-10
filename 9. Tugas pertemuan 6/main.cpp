@@ -84,7 +84,7 @@ void displayRank(int jumlahPeserta, string namaPeserta[], int nomorPeserta[], in
 
     // jika ada yang lebih besar, ranking naik 1
     for(int i = 0; i < jumlahPeserta; i++){ // [30, 10, 20] -> [10, 30, 20]
-        for(int j = 1; j < jumlahPeserta; j++){
+        for(int j = 0; j < jumlahPeserta; j++){
             if(selisihWaktu[j] < selisihWaktu[i]){
                 peringkat[i]++;
             }
@@ -93,7 +93,7 @@ void displayRank(int jumlahPeserta, string namaPeserta[], int nomorPeserta[], in
     
     // print ranking
     for(int i = 0; i < jumlahPeserta; i++){
-        cout << namaPeserta[i] << "Ranking : " << peringkat[i] << endl;
+        cout << "Peserta " << namaPeserta[i] << " ranking : " << peringkat[i] << endl;
     }
 
 }
