@@ -1,0 +1,22 @@
+int peserta = [
+    [nama, noPeserta, waktu start, waktu end, selisih]
+];
+
+judul(){
+    cout << "===============================================" << endl;
+    cout << "Selamat datang di program menghitung lomba lari" << endl;
+    cout << "===============================================" << endl;
+}
+
+input(nama, noPeserta, waktuFInish){
+
+}
+
+waktu(){
+    const 07:00:00
+}
+
+display&rank(){
+    
+}
+
